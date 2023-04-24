@@ -1,6 +1,6 @@
 //===================================================== Create a WebGL renderer
 var renderer = new THREE.WebGLRenderer({
-    canvas: document.querySelector("canvas"),
+    canvas: document.querySelector(".loader canvas"),
     powerPreference: "high-performance"
 });
 renderer.setSize(window.innerWidth, window.innerHeight);
