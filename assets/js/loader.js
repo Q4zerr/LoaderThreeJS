@@ -51,7 +51,7 @@ var geometry = new THREE.TubeGeometry( path, 300, 4, sides, true );
 //===================================================== Basic material
 var material = new THREE.MeshBasicMaterial({
     side : THREE.BackSide,
-    map: new THREE.TextureLoader().load('https://raw.githubusercontent.com/Q4zerr/LoaderThreeJS/34189338119518b4497bf1a0c495d7e6f8a013df/assets/img/loader3.png')
+    map: new THREE.TextureLoader().load('https://raw.githubusercontent.com/Q4zerr/LoaderThreeJS/f5d88c37c68a1e7a36fc09fc5f01a8dca6190fe2/assets/img/loader3.png')
     // map: new THREE.TextureLoader().load('https://raw.githubusercontent.com/Q4zerr/LoaderThreeJS/7ce6d0e22c9863b0b4b919d2a674c1c99985012a/assets/img/loader2.png')
     //map: new THREE.TextureLoader().load('https://raw.githubusercontent.com/Q4zerr/LoaderThreeJS/7e5396a444be701e2a646b862d8168df6c063726/assets/img/loader.png')
 });
